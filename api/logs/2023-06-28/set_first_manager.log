@@ -1,0 +1,50 @@
+[2023.06.28, 01:30:03]
+string(311) "INSERT INTO history_lead
+                    SET
+                    lead_id = 479281,
+                    date = '2023-06-28 13:30:03',
+                    manager_id = 864,
+                    manager_name = 'Maxim Ermakov',
+                    field = 'first-manager',
+                    `to` = '864'"
+
+[2023.06.28, 01:30:58]
+string(315) "INSERT INTO history_lead
+                    SET
+                    lead_id = 479282,
+                    date = '2023-06-28 13:30:58',
+                    manager_id = 357,
+                    manager_name = 'Kristina Ignatova',
+                    field = 'first-manager',
+                    `to` = '357'"
+
+[2023.06.28, 01:36:51]
+string(312) "INSERT INTO history_lead
+                    SET
+                    lead_id = 479283,
+                    date = '2023-06-28 13:36:51',
+                    manager_id = 1861,
+                    manager_name = 'Ivan Taranov',
+                    field = 'first-manager',
+                    `to` = '1861'"
+
+[2023.06.28, 01:40:25]
+string(314) "INSERT INTO history_lead
+                    SET
+                    lead_id = 479284,
+                    date = '2023-06-28 13:40:25',
+                    manager_id = 1754,
+                    manager_name = 'Nikita	Sobolev',
+                    field = 'first-manager',
+                    `to` = '1754'"
+
+[2023.06.28, 01:41:09]
+string(317) "INSERT INTO history_lead
+                    SET
+                    lead_id = 479285,
+                    date = '2023-06-28 13:41:09',
+                    manager_id = 1053,
+                    manager_name = 'Aleksandr Sobolev',
+                    field = 'first-manager',
+                    `to` = '1053'"
+

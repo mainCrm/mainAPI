@@ -1,0 +1,6 @@
+[2023.06.30, 12:54:21]
+string(101) "update leads set status = 'sent', manager = 1754, brand = 15 , dask_id = 134   where crm_id = 479301;"
+
+[2023.06.30, 01:39:04]
+string(98) "update leads set status = 'sent', manager = 357, brand = 6 , dask_id = 93   where crm_id = 479302;"
+

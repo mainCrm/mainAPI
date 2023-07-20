@@ -1,0 +1,80 @@
+[2023.06.30, 12:16:51]
+string(977) "SELECT DISTINCT users.*, ROUND((users.end_lead/users.add_lead)*100, 0) as weight
+				   from users 
+					  INNER JOIN camps_users ON users.id = camps_users.user_id
+						INNER JOIN campaigns ON camps_users.campaign_id = campaigns.id
+						INNER JOIN country_users ON users.id = country_users.user_id
+						INNER JOIN countries ON country_users.country_id = countries.id
+						INNER JOIN langs_users ON langs_users.user_id = users.id
+						INNER JOIN langs ON langs.id = langs_users.lang_id
+				        INNER JOIN brand_users on users.id = brand_users.user_id
+				     where online = 'online' 
+				     AND role IN ('manager', 'partner', 'desk_manager', 'director')
+				     AND users.add_lead > 0
+				     AND users.end_lead < users.add_lead
+				       and brand_users.brand_id = 17
+				     and (campaigns.id = 831) 
+				     and ((countries.name like '%ru%' and langs.name like '%ru%') or (countries.name like '%ru%'))	   
+				   ORDER BY weight ASC;
+				   "
+
+[2023.06.30, 12:54:21]
+string(977) "SELECT DISTINCT users.*, ROUND((users.end_lead/users.add_lead)*100, 0) as weight
+				   from users 
+					  INNER JOIN camps_users ON users.id = camps_users.user_id
+						INNER JOIN campaigns ON camps_users.campaign_id = campaigns.id
+						INNER JOIN country_users ON users.id = country_users.user_id
+						INNER JOIN countries ON country_users.country_id = countries.id
+						INNER JOIN langs_users ON langs_users.user_id = users.id
+						INNER JOIN langs ON langs.id = langs_users.lang_id
+				        INNER JOIN brand_users on users.id = brand_users.user_id
+				     where online = 'online' 
+				     AND role IN ('manager', 'partner', 'desk_manager', 'director')
+				     AND users.add_lead > 0
+				     AND users.end_lead < users.add_lead
+				       and brand_users.brand_id = 15
+				     and (campaigns.id = 831) 
+				     and ((countries.name like '%ru%' and langs.name like '%ru%') or (countries.name like '%ru%'))	   
+				   ORDER BY weight ASC;
+				   "
+
+[2023.06.30, 01:39:04]
+string(976) "SELECT DISTINCT users.*, ROUND((users.end_lead/users.add_lead)*100, 0) as weight
+				   from users 
+					  INNER JOIN camps_users ON users.id = camps_users.user_id
+						INNER JOIN campaigns ON camps_users.campaign_id = campaigns.id
+						INNER JOIN country_users ON users.id = country_users.user_id
+						INNER JOIN countries ON country_users.country_id = countries.id
+						INNER JOIN langs_users ON langs_users.user_id = users.id
+						INNER JOIN langs ON langs.id = langs_users.lang_id
+				        INNER JOIN brand_users on users.id = brand_users.user_id
+				     where online = 'online' 
+				     AND role IN ('manager', 'partner', 'desk_manager', 'director')
+				     AND users.add_lead > 0
+				     AND users.end_lead < users.add_lead
+				       and brand_users.brand_id = 6
+				     and (campaigns.id = 832) 
+				     and ((countries.name like '%gb%' and langs.name like '%en%') or (countries.name like '%gb%'))	   
+				   ORDER BY weight ASC;
+				   "
+
+[2023.06.30, 02:23:16]
+string(977) "SELECT DISTINCT users.*, ROUND((users.end_lead/users.add_lead)*100, 0) as weight
+				   from users 
+					  INNER JOIN camps_users ON users.id = camps_users.user_id
+						INNER JOIN campaigns ON camps_users.campaign_id = campaigns.id
+						INNER JOIN country_users ON users.id = country_users.user_id
+						INNER JOIN countries ON country_users.country_id = countries.id
+						INNER JOIN langs_users ON langs_users.user_id = users.id
+						INNER JOIN langs ON langs.id = langs_users.lang_id
+				        INNER JOIN brand_users on users.id = brand_users.user_id
+				     where online = 'online' 
+				     AND role IN ('manager', 'partner', 'desk_manager', 'director')
+				     AND users.add_lead > 0
+				     AND users.end_lead < users.add_lead
+				       and brand_users.brand_id = 17
+				     and (campaigns.id = 833) 
+				     and ((countries.name like '%ru%' and langs.name like '%EN%') or (countries.name like '%ru%'))	   
+				   ORDER BY weight ASC;
+				   "
+
